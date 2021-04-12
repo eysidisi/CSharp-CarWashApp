@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DEICO.CarWash.UI", "DEICO.CarWash.UI\DEICO.CarWash.UI.csproj", "{FAB5938B-A082-4BA9-B1F2-0FE30EC721B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DEICO.CarWash.Service", "DEICO.CarWash.Service\DEICO.CarWash.Service.csproj", "{6DCE89DB-11BB-4B90-9718-7306439CE1DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAB5938B-A082-4BA9-B1F2-0FE30EC721B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB5938B-A082-4BA9-B1F2-0FE30EC721B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB5938B-A082-4BA9-B1F2-0FE30EC721B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB5938B-A082-4BA9-B1F2-0FE30EC721B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DCE89DB-11BB-4B90-9718-7306439CE1DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DCE89DB-11BB-4B90-9718-7306439CE1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DCE89DB-11BB-4B90-9718-7306439CE1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DCE89DB-11BB-4B90-9718-7306439CE1DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01811711-A02C-44D4-AC1D-EA259517222A}
+	EndGlobalSection
+EndGlobal
