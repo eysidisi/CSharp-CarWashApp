@@ -25,9 +25,13 @@ simulate the travel of the vehicle in the car wash.
 The controller should perform the following general operations:
 
 ⦁	Indicate on the Wash Entry LED if the car wash is vacant or a wash is in progress.
+
 ⦁	Allow the user to select Wash Options.
+
 ⦁	Start the washing process when the user clicks Start.
+
 ⦁	Indicate the current wash step on the Car Wash Indicators LEDs and display the Elapsed Time on the indicator.
+
 ⦁	Turn ON the Vehicle Out of Position LED and pause the elapsing time if the vehicle
 moves from the designated position during a cycle.
 
@@ -37,9 +41,11 @@ moves from the designated position during a cycle.
 indicators should be in the following states:
 
 ⦁	Entry Console: All controls should be enabled.
+
 ⦁	Car Wash Display: The Wash Entry LED should be green and display Wash
 Vacant. All Car Wash Indicators should be turned OFF and the Elapsed
 Time indicator should display 0.00.
+
 ⦁	Car Position Simulation: The Car Position Slider should be at the Entry
 position.
 
@@ -54,10 +60,12 @@ Pressure Wash, or if the user did not select any options, High Pressure Wash mus
 added to the options programmatically after the use clicks Start.
 
 ⦁	The controller should disable the Wash Options buttons.
+
 ⦁	The controller should signal the start of the wash by changing the color of the Wash
+
 ⦁	Entry LED to red and displaying Wash In Progress.
-⦁	The controller should check if the vehicle is at the appropriate station for the first step in.
-⦁	the selected wash type by monitoring the Car Position Slider.
+
+⦁	The controller should check if the vehicle is at the appropriate station for the first step in the selected wash type by monitoring the Car Position Slider.
 
 Note Refer to the Car Wash Step Timing and Station Positions table at end of the
 specification for a list of stations that correspond to the car wash steps.
@@ -97,9 +105,11 @@ the application. When the application stops, the front panel controls and indica
 be in the following states:
 
 ⦁	Entry Console: All controls should be enabled.
+
 ⦁	Car Wash Display: The Wash Entry LED should be green and display Wash Vacant,
 all Car Wash Indicators should be turned OFF, and the Elapsed Time indicator should
 reset to zero.
+
 ⦁	Car Position Simulation: The Car Position Slider should reset to the Entry position.
 
 ## Car Wash Step Timing and Station Positions:
