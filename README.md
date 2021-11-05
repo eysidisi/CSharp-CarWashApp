@@ -1,8 +1,8 @@
 # CSharp-CarWashApp
 
-This is a project that I created for one of my clients recently. It's my very first with winform applications and also first time using another thread to do some background tasks. I know I'm missing some important error avoidance concepts like semaphores but application does what it supposed to do. I also learnt a lot about UI elements, events etc. while working on this one.
+This is a project that I created for one of my clients recently. It's my very first time with winform applications and also first time using another thread to do some background tasks. 
 
-I'm adding requirement file that sent me from my client:
+I'm adding requirement file that my client sent:
 
 
 
